@@ -159,7 +159,7 @@ RideBridge-Frontend/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/RideBridge-Frontend.git
+git clone https://github.com/Ankitkumar445/RideBridge-Frontend.git
 
 # Navigate to project
 cd RideBridge-Frontend
