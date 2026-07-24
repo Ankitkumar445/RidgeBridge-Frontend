@@ -131,20 +131,26 @@ MongoDB Atlas   Supabase Storage
 
 | Ride Details | Booking |
 |--------------|---------|
-| <img width="1886" height="897" alt="image" src="https://github.com/user-attachments/assets/411b4684-a038-4d5f-8aa0-2d23c4175282" />
- | Add Screenshot |
+| <img width="1897" height="898" alt="image" src="https://github.com/user-attachments/assets/7656e9c9-f271-46d2-8255-7867e998cefb" />
+ | <img width="1900" height="896" alt="image" src="https://github.com/user-attachments/assets/d8837ac4-fcf7-410a-84c8-434223d77b1e" />
+ |
 
 | Payment | Driver Dashboard |
 |---------|------------------|
-| Add Screenshot | Add Screenshot |
+| <img width="1898" height="896" alt="image" src="https://github.com/user-attachments/assets/430541de-6b24-4840-bd19-a1e033428f49" />
+ | <img width="1886" height="897" alt="image" src="https://github.com/user-attachments/assets/411b4684-a038-4d5f-8aa0-2d23c4175282" /> |
 
-| Admin Dashboard |
-|-----------------|
-| Add Screenshot |
-<img width="1897" height="898" alt="image" src="https://github.com/user-attachments/assets/7656e9c9-f271-46d2-8255-7867e998cefb" />
+
+<img width="1902" height="897" alt="image" src="https://github.com/user-attachments/assets/cea37aa7-dd50-4ded-a0e6-fd9cae712aee" />
+| Profile | Identification and Verification |
+|---------|------------------|
+| <img width="1893" height="897" alt="image" src="https://github.com/user-attachments/assets/319739c9-05a1-4f1a-8cfc-311a5e5c7487" />
+ | <img width="1886" height="897" alt="image" src="https://github.com/user-attachments/assets/411b4684-a038-4d5f-8aa0-2d23c4175282" /> |
+
 
 ---
 
+|<img width="1888" height="901" alt="image" src="https://github.com/user-attachments/assets/a4b9c779-d482-4ca5-a854-42b556c75af2" />
 # 🚀 Installation
 
 ```bash
