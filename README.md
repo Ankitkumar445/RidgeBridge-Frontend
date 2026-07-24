@@ -1,1 +1,205 @@
-<img width="1910" height="891" alt="image" src="https://github.com/user-attachments/assets/9fbe7894-b67a-4495-8804-4d9aec84d5ed" />
+# 🚗 RideBridge – Intercity Ride Sharing Platform
+
+RideBridge is a full-stack ride-sharing platform that connects drivers and passengers for secure and affordable intercity travel. The platform enables users to search and book rides, complete digital KYC verification, make secure online payments, share live ride locations, and manage bookings through a modern cross-platform mobile application built with React Native (Expo).
+
+---
+
+## ✨ Features
+
+- 🔐 Secure JWT Authentication
+- 📧 Email Verification & Password Reset (Brevo + Nodemailer)
+- 📱 OTP Verification using Twilio
+- 🪪 Driver KYC Verification using Setu DigiLocker APIs
+- 🚗 Search, Create & Book Intercity Rides
+- 💳 Razorpay Payment Gateway Integration
+- 📍 Live Driver Location Sharing
+- 🎫 Seat Selection & Booking Management
+- ⭐ Ratings & Reviews
+- 👤 Driver Dashboard
+- 📲 Cross-platform Support (Android • iOS • Web)
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React Native (Expo)
+- Expo Router
+- TypeScript
+- Zustand
+- Axios
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+## Third-Party Services
+
+- Razorpay
+- Twilio
+- Setu APIs
+- Brevo
+- Nodemailer
+
+## Database & Storage
+
+- MongoDB Atlas
+- Supabase Storage
+
+## Deployment
+
+- Render
+
+---
+
+# 📂 Project Structure
+
+```text
+RideBridge-Frontend/
+│
+├── app/
+│   ├── (auth)/                 # Authentication screens
+│   │   ├── login.tsx
+│   │   ├── register.tsx
+│   │   ├── verify-otp.tsx
+│   │   ├── forgot-password.tsx
+│   │   └── reset-password.tsx
+│   │
+│   ├── (app)/                  # Protected application routes
+│   │   ├── home.tsx
+│   │   ├── post-ride.tsx
+│   │   ├── my-listings.tsx
+│   │   ├── bookings/
+│   │   ├── listing/
+│   │   ├── user/
+│   │   ├── profile.tsx
+│   │   ├── admin.tsx
+│   │   └── kyc.tsx
+│   │
+│   ├── _layout.tsx
+│   └── index.tsx
+│
+├── src/
+│   ├── api/                    # API service layer
+│   ├── components/             # Reusable UI components
+│   ├── context/                # Authentication Context
+│   ├── theme/                  # Design system
+│   ├── types/                  # TypeScript interfaces
+│   └── utils/                  # Utility functions
+│
+├── assets/
+├── package.json
+└── README.md
+```
+
+# 🏗️ Architecture
+
+> **Add your architecture diagram here**
+
+Example:
+
+```
+React Native (Expo)
+        │
+        ▼
+ REST APIs (Axios)
+        │
+        ▼
+Node.js + Express.js
+        │
+ ┌──────┴────────┐
+ ▼               ▼
+MongoDB Atlas   Supabase Storage
+        │
+        ▼
+ Third-Party APIs
+(Razorpay • Twilio • Setu • Brevo)
+```
+
+---
+
+# 📸 Screenshots
+
+| Login | Home |
+|-------|------|
+| <img width="1910" height="891" alt="image" src="https://github.com/user-attachments/assets/9fbe7894-b67a-4495-8804-4d9aec84d5ed" /> | <img width="1886" height="891" alt="image" src="https://github.com/user-attachments/assets/1571cd86-d300-4ead-b29e-8827fa13ee71" />
+ |
+
+| Ride Details | Booking |
+|--------------|---------|
+| <img width="1886" height="897" alt="image" src="https://github.com/user-attachments/assets/411b4684-a038-4d5f-8aa0-2d23c4175282" />
+ | Add Screenshot |
+
+| Payment | Driver Dashboard |
+|---------|------------------|
+| Add Screenshot | Add Screenshot |
+
+| Admin Dashboard |
+|-----------------|
+| Add Screenshot |
+<img width="1897" height="898" alt="image" src="https://github.com/user-attachments/assets/7656e9c9-f271-46d2-8255-7867e998cefb" />
+
+---
+
+# 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/RideBridge-Frontend.git
+
+# Navigate to project
+cd RideBridge-Frontend
+
+# Install dependencies
+npm install
+
+# Create environment file
+cp .env.example .env
+
+# Start Expo
+npx expo start
+```
+
+---
+
+# ⚙️ Environment Variables
+
+Create a `.env` file and configure:
+
+```env
+EXPO_PUBLIC_API_URL=YOUR_BACKEND_URL
+```
+
+---
+
+# 📦 Backend Repository
+
+🔗 https://github.com/yourusername/RideBridge-Backend
+
+---
+
+# 🔮 Future Improvements
+
+- Real-time notifications using Socket.IO
+- Push Notifications
+- AI-based Ride Recommendations
+- Dynamic Pricing Engine
+- In-app Chat between Driver & Passenger
+- Ride History Analytics
+- Dark Mode Support
+
+---
+
+# 👨‍💻 Author
+
+**Ankit Kumar**
+
+- LinkedIn: https://linkedin.com/in/your-profile
+- Portfolio: https://your-portfolio.vercel.app
+- GitHub: https://github.com/yourusername
+
+
