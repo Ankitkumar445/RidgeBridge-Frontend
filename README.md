@@ -1,6 +1,6 @@
 # 🚗 RideBridge – Intercity Ride Sharing Platform
 
-RideBridge is a full-stack ride-sharing platform that connects drivers and passengers for secure and affordable intercity travel. The platform enables users to search and book rides, complete digital KYC verification, make secure online payments, share live ride locations, and manage bookings through a modern cross-platform mobile application built with React Native (Expo).
+RideBridge Frontend is the cross-platform client application for the RideBridge Intercity Ride Sharing Platform. Built with React Native (Expo) and TypeScript, it enables riders and drivers to securely search, create, and manage rides while communicating with the RideBridge backend through REST APIs.
 
 ---
 
@@ -33,27 +33,26 @@ RideBridge is a full-stack ride-sharing platform that connects drivers and passe
 
 - Node.js
 - Express.js
-- MongoDB
+- TypeScript
+- REST APIs
 - JWT Authentication
+
+## Database
+
+- PostgreSQL
+- Prisma ORM
 
 ## Third-Party Services
 
 - Razorpay
 - Twilio
-- Setu APIs
+- Setu DigiLocker APIs
 - Brevo
 - Nodemailer
 
-## Database & Storage
-
-- MongoDB Atlas
-- Supabase Storage
-
 ## Deployment
 
-- Expo
-
----
+- Render
 
 # 📂 Project Structure
 
