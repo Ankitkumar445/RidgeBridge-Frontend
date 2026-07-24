@@ -94,28 +94,44 @@ RideBridge-Frontend/
 └── README.md
 ```
 
-# 🏗️ Architecture
+# 🏗️ Frontend Architecture
 
-> **Add your architecture diagram**
-
-Example:
-
-```
-React Native (Expo)
-        │
-        ▼
- REST APIs (Axios)
-        │
-        ▼
-Node.js + Express.js
-        │
- ┌──────┴────────┐
- ▼               ▼
-MongoDB Atlas   Supabase Storage
-        │
-        ▼
- Third-Party APIs
-(Razorpay • Twilio • Setu • Brevo)
+```text
+                           ┌─────────────────────────┐
+                           │     User (Mobile/Web)   │
+                           └─────────────┬───────────┘
+                                         │
+                                         ▼
+                    ┌─────────────────────────────────┐
+                    │     React Native (Expo App)     │
+                    │  Android • iOS • Web Platform   │
+                    └─────────────┬───────────────────┘
+                                  │
+                    ┌─────────────▼─────────────┐
+                    │       Expo Router         │
+                    │    File-Based Routing     │
+                    └─────────────┬─────────────┘
+                                  │
+          ┌───────────────────────┼────────────────────────┐
+          ▼                       ▼                        ▼
+ ┌────────────────┐     ┌────────────────┐      ┌────────────────┐
+ │ Auth Context   │     │  Global State  │      │ UI Components  │
+ │ JWT Session    │     │                │      │ Reusable Views │
+ └───────┬────────┘     └───────┬────────┘      └────────────────┘
+         │                      │
+         └──────────────┬───────┘
+                        ▼
+              ┌────────────────────┐
+              │ Axios API Client   │
+              │ Auth Interceptors  │
+              └─────────┬──────────┘
+                        │
+                  REST API Calls
+                        │
+                        ▼
+          ┌────────────────────────────┐
+          │   RideBridge Backend API   │
+          └────────────────────────────┘
 ```
 
 ---
@@ -124,8 +140,7 @@ MongoDB Atlas   Supabase Storage
 
 | Login | Home |
 |-------|------|
-| <img width="1910" height="891" alt="image" src="https://github.com/user-attachments/assets/9fbe7894-b67a-4495-8804-4d9aec84d5ed" /> | <img width="1886" height="891" alt="image" src="https://github.com/user-attachments/assets/1571cd86-d300-4ead-b29e-8827fa13ee71" />
- |
+| <img width="1910" height="891" alt="image" src="https://github.com/user-attachments/assets/9fbe7894-b67a-4495-8804-4d9aec84d5ed" /> | <img width="1886" height="891" alt="image" src="https://github.com/user-attachments/assets/1571cd86-d300-4ead-b29e-8827fa13ee71" /> |
 
 | Ride Details | Booking |
 |--------------|---------|
@@ -194,8 +209,8 @@ EXPO_PUBLIC_API_URL=YOUR_BACKEND_URL
 
 **Ankit Kumar**
 
-- LinkedIn: https://linkedin.com/in/your-profile
-- Portfolio: https://your-portfolio.vercel.app
+- LinkedIn: https://www.linkedin.com/in/ankit-kumar-035083304/
+- Portfolio: https://selfprofile-phi.vercel.app/
 - GitHub: https://github.com/Ankitkumar445
 
 
